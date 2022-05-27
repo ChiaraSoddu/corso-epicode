@@ -1,135 +1,84 @@
-/* IMPOSTAZIONI GENERALI */
-* {font-family: Arial, Helvetica, sans-serif;
-color: rgb(45, 45, 45);
-margin: 15px;
-font-size: 12;
-line-height: 1.5em;}
-
-/* HEADER */
-
-header {
-    font-family: 'Raleway', sans-serif;
-    background-color: #00A0C6;
-    padding: 1.5em;
-    font-size: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    border-bottom: 6px solid #027794;
-    margin-bottom:1.5em;
-    line-height: 1.5em;
+/*IMPOSTAZIONI GENERALI*/
+body{font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+font-size: 1.2rem;
+text-align: center;
+line-height: 1.65rem;
+border: 1 px#393d41;
 }
-
-header h1{font-size:2rem;
-    color: antiquewhite;
+h3 {color: #25a2c3;
+    font-weight: bolder;}
+p{margin: 1.5rem;
+margin-bottom:3rem}
+/*HEADER*/
+header {background-color: black;
+        font-family: 'Open Sans', sans-serif;
+        align-self: center;
+        color: #393d41;
+        padding: 1rem}
+header img {height: 35px}
+/*
+header h1 {font-family: 'Montserrat', sans-serif;
+            font-weight: bolder;
+            font-size: 2rem;
+            line-height: 2.3rem;
+            color: #25a2c3}
+header div {background-image: url(../img/banner.jpg);
+            font-family: montserrat;
+            padding: 1rem;
+            background-size: cover;
+            background-repeat: no-repeat;
+        font-size: 0.9rem;}
+header div img {max-height: max-content;} */
+/*MAIN*/
+.zero h1 {font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-}
+    font-size: 2rem;
+    line-height: 2.3rem;
+    color: #25a2c3}
+.zero div {background-image: url(../img/banner.jpg);
+    font-family: montserrat;
+    padding: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 0.9rem;
+    margin: 0%;
+    margin-bottom: 4rem;}
+.zero img {max-height: max-content;} 
+h1, h2, h3, h4 {font-family: 'Montserrat', sans-serif;}
+button {font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+        font-weight: bold;
+        background-color: #f04c2f;
+        border-radius: 5px;
+        border-color: #f04c2f;
+        text-transform: uppercase;
+        color: white}
+/*CONTENUTI MAIN*/
 
-span {
-    background-color: antiquewhite;
-    color: #00A0C6;
+div {border: 1px solid #dee1e3;
+margin: 1.5em;}
+h4 {color: rgb(0, 178, 205);
+    font-weight: bold;}
+section img {width: 331px;
 }
+.one img {border-radius: 100%;
+margin-bottom: 2rem;}
 
-header h2 {
-    color: #000;
-    font-size: 1rem;
-    font-variant: small-caps;
+article {color: #dee1e3;
+        background-color: #f04c2f;
+        padding: 1rem;
+        margin-bottom: 3rem;}
+article h2 {font-size: 1.7rem;
+            font-weight: bolder;
+            margin: 2rem;
+        color:white}
+span {font-size: small ;}
+/*FOOTER*/
+footer {color: #dee1e3;
+background-color: #25a2c3;
+padding: 2rem;}
+footer h2 {font-size: 1.7rem;
     font-weight: bolder;
-}
-
-#container {
-    width: 1024px;
-    border: 1px solid #000;
-    margin: 0 auto;
-    background-color: #027794;
-}
-
-hr {
-border: 1px dotted #999933;
-}
-
-/* MAIN */
-
-main {font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;}
-
-div {margin: 15px}
-
-div h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #027794;
-    font-size: 25px;
-    margin: 15px;
-}
-
-blockquote {
-    border: 5px;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: gainsboro;
-    margin: 10px;
-    font-style: italic;
-}
-
-section h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #027794;
-    font-size: 25px;
-    margin: 15px;
-}
-
-div h3 {
-    color: black;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-div ul {padding: 2em;}
-
-div p {margin:10px}
-
-div a {color:crimson}
-
-div dd {padding: 2px}
-
-mark {background-color: #00A0C6;}
-
-figure {text-align: center;}
-
-address {margin: 15px}
-
-address b {
-    font-weight: bold;
-}
-
-strong {color:#027794}
-
-address a {
-    color:crimson;
-}
-
-p b {
-    font-weight: bold;
-}
-
-dl{margin: 0.5em}
-
-dd {margin-left: 1.5em;
-    margin-bottom: 1.5em;}
-
-/* ELEMENTI NEL MAIN */
-
-/* FOOTER */
-footer {background-color: rgb(24, 24, 24);
-        border-top: 6px solid #027794;}
-
-footer p {color: antiquewhite;
-        text-align: center;}
-
-footer small {color: gray;
-            text-align: center;}
-
-footer kbd {color: yellow;}
-
-footer a {color: #f00;}
+    color:white}
+a {color: #dee1e3;}
