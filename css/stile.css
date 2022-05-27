@@ -1,0 +1,93 @@
+/*IMPOSTAZIONI GENERALI*/
+body{font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+font-size: 1.2rem;
+text-align: center;
+line-height: 1.65rem;
+border: 1 px#393d41;
+}
+
+h3 {color: #25a2c3;
+    font-weight: bolder;}
+
+p{margin: 1.5rem;
+margin-bottom:3rem}
+
+/*HEADER*/
+header {background-color: black;
+        font-family: 'Open Sans', sans-serif;
+        align-self: center;
+        color: #393d41;
+        padding: 1rem}
+
+header img {height: 35px}
+
+/*MAIN*/
+.zero h1 {font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    color: #25a2c3}
+
+.zero div {background-image: url(../img/banner.jpg);
+    font-family: montserrat;
+    padding: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 0.9rem;
+    margin: 0%;
+    margin-bottom: 4rem;}
+
+.zero img {max-height: max-content;} 
+
+h1, h2, h3, h4 {font-family: 'Montserrat', sans-serif;}
+
+button {font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+        font-weight: bold;
+        background-color: #f04c2f;
+        border-radius: 5px;
+        border-color: #f04c2f;
+        text-transform: uppercase;
+        color: white}
+        
+/*CONTENUTI MAIN*/
+
+div {border: 1px solid #dee1e3;
+margin: 1.5em;}
+
+h4 {color: rgb(0, 178, 205);
+    font-weight: bold;}
+
+section img {width: 331px;
+}
+
+.one img {border-radius: 100%;
+margin-bottom: 2rem;}
+
+article {color: #dee1e3;
+        background-color: #f04c2f;
+        padding: 1rem;
+        margin-bottom: 3rem;}
+
+article h2 {font-size: 1.7rem;
+            font-weight: bolder;
+            margin: 2rem;
+        color:white}
+
+article p {color: white;}
+
+article blockquote {font-style: italic;}
+
+span {font-size: small ;}
+
+/*FOOTER*/
+footer {color: #dee1e3;
+background-color: #25a2c3;
+padding: 2rem;}
+
+footer h2 {font-size: 1.7rem;
+    font-weight: bolder;
+    color:white}
+
+a {color: #dee1e3;}
