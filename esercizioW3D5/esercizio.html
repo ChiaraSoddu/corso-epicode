@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="esercizio.css">
+</head>
+<body>
+    <section>
+        <h1>La mia calcolatrice in JS</h1>
+        <div class="calcolatrice">
+            <input type="text" id="schermo" readonly="readonly">
+        </div>
+        <div class="calcolatrice">
+            <input type="submit" class="tasto" id="7" value="7" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="8" value="8" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="9" value="9" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="/" value="/" onclick="n(this.id)">
+        </div>
+        <div class="calcolatrice">
+            <input type="submit" class="tasto" id="4" value="4" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="5" value="5" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="6" value="6" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="*" value="X" onclick="n(this.id)">
+        </div>
+        <div class="calcolatrice">
+            <input type="submit" class="tasto" id="1" value="1" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="2" value="2" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="3" value="3" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="-" value="-" onclick="n(this.id)">
+        </div>
+        <div class="calcolatrice">
+            <input type="submit" class="tasto" id="C" value="C" onclick="del()">
+            <input type="submit" class="tasto" id="0" value="0" onclick="n(this.id)">
+            <input type="submit" class="tasto" id="." value="." onclick="n(this.id)">
+            <input type="submit" class="tasto" id="+" value="+" onclick="n(this.id)">
+        </div>
+        <div class="calcolatrice">
+            <input type="submit" class="uguale" id="invia" value="=" onclick="calcolo()">
+        </div>
+    </section>
+    <script src="esercizio.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+section {
+    text-align: center;
+}
+.calcolatrice {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-self: center;
+}
+.tasto {
+    background-color: #cbcbcb ;
+    color: #271fbd;
+    font-size: 22pt;
+    border: 1px solid #cbcbcb;
+    border-radius: 50%;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+#schermo {
+    background: rgb(212, 211, 211);
+    color: #0d5ca2;
+    font-size: large;
+    border: 1px solido #0d00ff;
+    width: 200px;
+    height: 40px;    
+    margin-bottom: 5px;        
+}
+.uguale {
+    width: 200px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #cbcbcb
+}
