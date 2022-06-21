@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var oggi = new Date();
+        document.write(oggi);
+
+
+        var Oggi = new Date();
+        var giorno, mese, anno;
+        giorno = Oggi.getDate() + "/";
+        mese = Oggi.getMonth() + 1 + "/";
+        anno = Oggi.getFullYear();
+        document.write("<br>" + "Oggi è il " + giorno + mese + anno);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+/*ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}*/
+
+
+h1, h2 {
+    text-align: center;
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+div {
+    display: inline-block;
+    width: 13vw;
+    height: 13vh;
+    margin: 1px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+/* settimana (lun-dom) */
+#settimana{
+    background-color: rgb(162, 162, 162);
+    text-align: center;
+}
+
+
+
+/* giorni (1-30) */
+#giorno, #giornoAttuale {
+    background: #eee;
+    padding: 10px o;
+}
+
+
+
+/*giorno attuale*/
+
+#giornoAttuale:hover {
+    background-color: aquamarine;
+}
