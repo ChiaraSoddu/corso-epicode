@@ -1,0 +1,25 @@
+$nav: (
+    color: white,
+    background-color: black,
+    font-family: "Helvetica Neue",
+); 
+
+$foot: blue;
+
+$text2: black;
+
+$text1:  white;
+
+@mixin margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+$pad: 5px;
+
+$family: "Roboto";
+
+$pos: flex-start;
+
+
+
