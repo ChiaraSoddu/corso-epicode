@@ -1,0 +1,86 @@
+
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+
+.smartphone .content {
+  text-align: center;
+  margin-top: 80px;
+} 
+
+#home {  
+    display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 45%;
+    bottom: -50px;
+    background: #333;
+    border-radius: 50%;  
+}
+
+#u1 {
+    display: flex;    
+    width: 300px;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+#u2 {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding: 5px;    
+}
+
+#u3 {
+    display: flex;   
+    width: 300px;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+
+
+/* PAGINA SIM */
+
+#ricarica1{
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 25%;
+    bottom: 560px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;  
+  }
+
+  #ricarica2{
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: 560px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;  
+  }
+
+  #ricarica3{
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 75%;
+    bottom: 560px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;  
+  }
